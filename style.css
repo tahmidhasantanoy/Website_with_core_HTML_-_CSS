@@ -1,0 +1,257 @@
+/* Banner design  */
+header {
+  background-image: url(./images/banner/banner1.png);
+  width: 1600px;
+  height: 808px;
+  display: flex;
+  /* flex-direction: row-reverse; */
+  justify-content: flex-end;
+}
+.banner {
+  margin: 216px 230px 160px 870px;
+}
+.banner-title {
+  text-align: end;
+  width: 525px;
+  height: 228px;
+
+  font-weight: 700;
+  font-size: 65px;
+
+  color: #151414;
+}
+
+.banner-desc {
+  text-align: end;
+  width: 494px;
+  height: 78px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+
+  color: #444343;
+}
+.banner-btn {
+  /* text-align: end; */
+  width: 160px;
+  height: 64px;
+  color: white;
+  border: none;
+  background-color: orangered;
+  border-radius: 5px;
+  padding: 20px 25px;
+  margin-left: 340px;
+}
+/* Banner design end */
+
+/* Main section design  */
+.main-container {
+  display: flex;
+  margin: 131px 100px 214px 396px;
+  padding: 180px 120px 120px 0px;
+}
+.image {
+  width: 569px;
+  height: 723.3px;
+  /* margin-left: 200px; */
+}
+.image-desc {
+  padding: 180px 120px 120px 0px;
+  padding-top: 180px;
+  padding-bottom: 120px;
+  padding-right: 45px;
+}
+.image-title {
+  width: 288px;
+  height: 94px;
+
+  font-weight: 700;
+  font-size: 40px;
+
+  color: #151414;
+}
+
+.image-primary-desc {
+  width: 416px;
+  height: 104px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #444343;
+}
+.image-secondary-desc {
+}
+p .bullet-point {
+  /* margin-right: 5px; */
+}
+.checked {
+  color: aqua;
+  height: 16px;
+  width: 16px;
+  padding: 0px 15px;
+}
+
+/* plan section design  */
+.my-plan {
+margin-left: 440px;}
+.plan-title {
+  width: 179px;
+  height: 47px;
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+  justify-content: center;
+  margin-left: 400px;
+  margin-bottom: 55px;
+}
+.plan-icon-web {
+  margin-left: 73px;
+}
+.plan-icon-js {
+  margin-left: 20px;
+}
+.plan-icon-sm {
+  margin-left: 35px;
+}
+.plan-icon-eco {
+  margin-left: 13px;
+}
+.plans-list {
+  display: flex;
+}
+.plan-list-title {
+  width: 270px;
+  height: 35px;
+
+  font-weight: 700;
+  font-size: 30px;
+
+  color: #151414;
+}
+.plan-desc {
+  width: 177px;
+  height: 29px;
+
+  font-size: 25px;
+
+  color: #737272;
+}
+.web .plan-desc {
+  margin-left: 49px;
+}
+.js .plan-desc {
+}
+.sm .plan-desc {
+  margin-left: 40px;
+}
+.eco .plan-desc {
+}
+/* Gradient design  */
+.gradient {
+  background-image: url(./images/watch.png);
+  background-image: linear-gradient(
+      to right,
+      rgba(250, 133, 8, 0.979),
+      rgba(213, 201, 210, 0.284)
+    ),
+    url("./images/watch.png");
+  /* width: 759px; */
+  height: 182px;
+  width: 970px;
+  margin-left: 440px;
+  margin-right: 10px;
+  margin-top: 130px;
+  margin-bottom: 130px;
+  /* margin: 130px 200px; */
+}
+.gradient-container {
+  width: 359px;
+  height: 182px;
+  padding: 1px 500px 59px 64px;
+}
+.gradient-title {
+  font-weight: 400;
+  font-size: 30px;
+  color: #ffffff;
+}
+.gradient-button {
+  font-weight: 600;
+  font-size: 10px;
+  background-color: #fff;
+  color: orangered;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 25px;
+  margin-bottom: 60px;
+}
+/* footer design  */
+.container {
+  width: 1600px;
+  height: 377px;
+
+  background: #151414;
+  color: white;
+  padding: 230px 130px;
+  display: flex;
+}
+.sec-1 {
+  width: 485px;
+  height: 317px;
+  margin-right: 200px;
+  margin-left: 320px;
+}
+.footer-title {
+  font-weight: 700;
+  font-size: 45px;
+
+  color: #f8f8f8;
+}
+.footer-desc {
+  font-weight: 400;
+  font-size: 16px;
+
+  color: #ffffff;
+}
+.mail {
+  font-weight: 400;
+  font-size: 16px;
+
+  color: #ffffff;
+}
+.phone {
+  font-weight: 400;
+  font-size: 16px;
+
+  color: #ffffff;
+}
+.icon-fb {
+  margin-right: 5px;
+}
+.icon-twt {
+  margin-right: 5px;
+}
+.icon-tube {
+}
+.sec-2 {
+  margin-right: 200px;
+}
+.sec-2-title {
+  font-weight: 600;
+  font-size: 25px;
+  color: #ffffff;
+  display: flex;
+}
+input {
+  border-radius: 5px;
+  background-color: black;
+  padding: 8px;
+  margin-bottom: 16px;
+}
+.subscribe {
+  width: 170.11px;
+  height: 64px;
+  background-color: #fff;
+  color: orangered;
+  border-radius: 9px;
+  font-size: 15px;
+}
